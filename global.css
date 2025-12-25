@@ -1,0 +1,9 @@
+@theme {
+  --color-primary: #3b82f6;
+  --color-background-light: #F8FAFC;
+  --color-card-dark: #1e293b;
+  --color-background-dark: #0f172a;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

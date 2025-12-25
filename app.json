@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Özel Kalkan Güneş Anaokulu",
+    "slug": "kalkan-gunes-anaokulu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "kalkangunes",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kalkangunes.anaokulu"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.kalkangunes.anaokulu"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "pwa": {
+        "name": "Özel Kalkan Güneş Anaokulu",
+        "shortName": "Kalkan Güneş",
+        "description": "Özel Kalkan Güneş Anaokulu Yönetim Paneli",
+        "themeColor": "#ffffff",
+        "backgroundColor": "#ffffff",
+        "display": "standalone",
+        "orientation": "portrait"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b090e86b-3c5e-4716-9842-083cc561e4da"
+      }
+    }
+  }
+}
